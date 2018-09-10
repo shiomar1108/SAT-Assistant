@@ -1,0 +1,127 @@
+1536620410361	geckodriver	INFO	Listening on 127.0.0.1:50241
+1536620411452	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536620417294	Marionette	INFO	Listening on port 40645
+1536620417389	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536620417561	Marionette	DEBUG	[2147483649] Frame script loaded
+1536620417595	Marionette	DEBUG	[2147483649] Frame script registered
+1536620417637	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536620420499	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536620421923	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.seleniumhq.org/
+1536620423000	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.seleniumhq.org/
+1536620433920	Marionette	DEBUG	[4294967297] Frame script loaded
+1536620433921	Marionette	DEBUG	[4294967297] Frame script registered
+1536620436414	Marionette	DEBUG	[6442450945] Frame script loaded
+1536620436415	Marionette	DEBUG	[6442450945] Frame script registered
+1536620440018	Marionette	INFO	Stopped listening on port 40645
+1536620484443	geckodriver	INFO	Listening on 127.0.0.1:42055
+1536620485533	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536620491623	Marionette	INFO	Listening on port 34525
+1536620491675	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536620491811	Marionette	DEBUG	[2147483649] Frame script loaded
+1536620491837	Marionette	DEBUG	[2147483649] Frame script registered
+1536620492016	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536620494519	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536620494542	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536620494546	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536620494663	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536620494833	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536620497416	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536620497653	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536620497711	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536620497743	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536620497793	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536620505241	Marionette	INFO	Stopped listening on port 34525
+1536620870738	geckodriver	INFO	Listening on 127.0.0.1:51575
+1536620871839	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536620877519	Marionette	INFO	Listening on port 39463
+1536620877578	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536620877739	Marionette	DEBUG	[2147483649] Frame script loaded
+1536620877741	Marionette	DEBUG	[2147483649] Frame script registered
+1536620877834	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536620880714	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536620880743	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536620880746	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536620880834	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536620880954	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536620883922	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536620884162	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536620884221	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536620884222	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536620884298	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536620911522	Marionette	INFO	Stopped listening on port 39463
+1536620914888	geckodriver	INFO	Listening on 127.0.0.1:53761
+1536620915984	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536620921757	Marionette	INFO	Listening on port 46449
+1536620921826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536620921985	Marionette	DEBUG	[2147483649] Frame script loaded
+1536620922006	Marionette	DEBUG	[2147483649] Frame script registered
+1536620922095	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536620923612	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536620923647	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536620923650	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536620923752	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536620923926	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536620926718	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536620926985	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536620927059	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536620927167	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536620927356	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536620927357	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536620928425	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/app/login?id=SATx509Custom&sid=0&option=credential&sid=0
+1536620928548	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1536620928674	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483665
+1536620928728	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483661
+1536620930015	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/app/login?id=SATx509Custom&sid=0&option=credential&sid=0
+1536621049588	Marionette	INFO	Stopped listening on port 46449
+1536621525950	geckodriver	INFO	Listening on 127.0.0.1:56887
+1536621527039	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536621532602	Marionette	INFO	Listening on port 38429
+1536621532678	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536621532822	Marionette	DEBUG	[2147483649] Frame script loaded
+1536621532824	Marionette	DEBUG	[2147483649] Frame script registered
+1536621532915	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536621534808	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536621534838	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536621534843	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536621534951	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536621535106	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536621538386	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536621539060	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536621539219	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536621539330	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536621539427	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536621539580	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536621539668	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536621539669	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536621546436	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/app/login?id=SATx509Custom&sid=0&option=credential&sid=0
+1536621546529	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/app/login?id=SATx509Custom&sid=0&option=credential&sid=0
+1536621546823	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536621733079	Marionette	DEBUG	[4294967297] Frame script loaded
+1536621733080	Marionette	DEBUG	[4294967297] Frame script registered
+1536621735321	Marionette	DEBUG	[6442450945] Frame script loaded
+1536621735322	Marionette	DEBUG	[6442450945] Frame script registered
+1536621762704	Marionette	INFO	Stopped listening on port 38429
+1536621776953	geckodriver	INFO	Listening on 127.0.0.1:39389
+1536621778164	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536621786106	Marionette	INFO	Listening on port 43443
+1536621786225	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536621786372	Marionette	DEBUG	[2147483649] Frame script loaded
+1536621786374	Marionette	DEBUG	[2147483649] Frame script registered
+1536621786438	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536621790616	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536621790642	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536621790645	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536621790751	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536621791143	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536621797718	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536621798085	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536621798296	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536621798343	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536621798642	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536621798814	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536621798957	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536621798962	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536621808874	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/app/login?id=SATx509Custom&sid=0&option=credential&sid=0
+1536621813544	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/app/login?id=SATx509Custom&sid=0&option=credential&sid=0
+1536621813962	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536621894902	Marionette	INFO	Stopped listening on port 43443
