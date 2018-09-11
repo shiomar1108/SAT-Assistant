@@ -381,3 +381,856 @@ JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line
 (/usr/lib/firefox/firefox:32662): dconf-WARNING **: 20:13:37.531: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
 JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 3: too much recursion
 1536628655867	Marionette	INFO	Stopped listening on port 36829
+1536631695152	geckodriver	INFO	Listening on 127.0.0.1:56473
+1536631696426	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536631703504	Marionette	INFO	Listening on port 44901
+1536631703592	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536631703735	Marionette	DEBUG	[2147483649] Frame script loaded
+1536631703737	Marionette	DEBUG	[2147483649] Frame script registered
+1536631703924	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536631705465	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536631705490	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536631705493	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536631705731	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536631705892	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536631708704	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536631708910	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536631708956	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536631709234	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+
+(/usr/lib/firefox/firefox:3157): dconf-WARNING **: 21:08:29.618: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 2: too much recursion
+1536631724881	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536631725015	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536631725017	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536631725031	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536631725035	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536631725081	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536631725270	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536631725285	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536631725288	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536631725317	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536631725421	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536631725438	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536631725440	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536631725470	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536631725641	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536631726017	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536631726102	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536631726524	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536631726661	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536631726763	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536631726764	Marionette	DEBUG	[2147483649] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536631727147	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536631727220	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536631739374	Marionette	INFO	Stopped listening on port 44901
+1536632078227	geckodriver	INFO	Listening on 127.0.0.1:58309
+1536632079325	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536632085088	Marionette	INFO	Listening on port 36691
+1536632085161	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536632085305	Marionette	DEBUG	[2147483649] Frame script loaded
+1536632085307	Marionette	DEBUG	[2147483649] Frame script registered
+1536632085408	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536632087898	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536632087923	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632087928	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632088035	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632088335	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632090598	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632090888	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536632090920	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536632091011	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 3: too much recursion
+1536632100970	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632101075	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632101076	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632101092	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632101096	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632101145	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632101428	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632101443	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632101446	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632101476	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632101591	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632101610	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632101612	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632101640	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632102234	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632102611	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632102689	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632103134	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632103295	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632103413	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632103415	Marionette	DEBUG	[2147483649] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632103809	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536632103885	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536632104006	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1536632104006	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536632104245	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632119445	Marionette	INFO	Stopped listening on port 36691
+1536632226012	geckodriver	INFO	Listening on 127.0.0.1:40917
+1536632227115	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536632232784	Marionette	INFO	Listening on port 41523
+1536632232876	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536632233018	Marionette	DEBUG	[2147483649] Frame script loaded
+1536632233022	Marionette	DEBUG	[2147483649] Frame script registered
+1536632233090	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536632235329	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536632235351	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632235355	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632235448	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632235606	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632237525	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632237894	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536632237948	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536632237954	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536632238029	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+
+(/usr/lib/firefox/firefox:3682): dconf-WARNING **: 21:17:18.541: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 3: too much recursion
+1536632250675	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632253831	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632253832	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632253846	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632253850	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632253895	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632254135	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632254151	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632254154	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632254183	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632254281	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632254299	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632254301	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632254332	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632254537	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632254992	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632255074	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632256356	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632256509	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632256602	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632256604	Marionette	DEBUG	[2147483649] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632256992	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536632257097	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536632257207	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1536632257207	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536632257437	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632285858	Marionette	INFO	Stopped listening on port 41523
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to stat
+1536632301993	geckodriver	INFO	Listening on 127.0.0.1:53923
+1536632303093	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536632308856	Marionette	INFO	Listening on port 34935
+1536632308929	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536632309078	Marionette	DEBUG	[2147483649] Frame script loaded
+1536632309083	Marionette	DEBUG	[2147483649] Frame script registered
+1536632309165	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536632312275	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536632312299	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632312303	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632312396	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632312569	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632314940	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632315168	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536632315299	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536632315357	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536632315438	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+
+(/usr/lib/firefox/firefox:3893): dconf-WARNING **: 21:18:35.805: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 3: too much recursion
+1536632327449	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632327564	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632327566	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632327591	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632327595	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632327637	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632327902	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632327919	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632327923	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632327955	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632328068	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632328088	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632328090	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632328121	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632328310	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632329157	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632329231	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632330566	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632330709	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632330857	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632330859	Marionette	DEBUG	[2147483649] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632331277	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536632331318	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1536632331318	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536632331554	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536632331902	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632332244	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632406987	Marionette	INFO	Stopped listening on port 34935
+1536632472303	geckodriver	INFO	Listening on 127.0.0.1:43961
+1536632473403	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536632479289	Marionette	INFO	Listening on port 35757
+1536632479345	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536632479490	Marionette	DEBUG	[2147483649] Frame script loaded
+1536632479496	Marionette	DEBUG	[2147483649] Frame script registered
+1536632479549	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536632482302	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536632482328	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632482331	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632482419	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632482585	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632486086	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632486313	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536632486503	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536632486853	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+
+(/usr/lib/firefox/firefox:4149): dconf-WARNING **: 21:21:27.222: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 2: too much recursion
+1536632511527	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632511636	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632511637	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632511652	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632511656	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632511700	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632511918	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632511932	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632511935	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632511966	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632512138	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632512157	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632512159	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632512187	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632512380	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632513011	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632513132	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1536632513187	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1536632514365	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632515641	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632515786	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632515925	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632515926	Marionette	DEBUG	[2147483649] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632516208	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1536632516209	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536632516380	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536632516598	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536632517011	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632517367	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632517695	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632525581	Marionette	DEBUG	[4294967297] Frame script loaded
+1536632525583	Marionette	DEBUG	[4294967297] Frame script registered
+1536632527101	Marionette	DEBUG	[6442450945] Frame script loaded
+1536632527102	Marionette	DEBUG	[6442450945] Frame script registered
+1536632530214	Marionette	INFO	Stopped listening on port 35757
+1536632676924	geckodriver	INFO	Listening on 127.0.0.1:35191
+1536632678023	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536632683766	Marionette	INFO	Listening on port 41861
+1536632683882	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536632684031	Marionette	DEBUG	[2147483649] Frame script loaded
+1536632684038	Marionette	DEBUG	[2147483649] Frame script registered
+1536632684106	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536632687069	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536632687095	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632687098	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632687196	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632687357	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632689605	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632689851	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536632689900	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536632689987	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+
+(/usr/lib/firefox/firefox:4435): dconf-WARNING **: 21:24:50.366: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 2: too much recursion
+1536632700629	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632700727	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632700729	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632700885	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632701056	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632709887	Marionette	INFO	Stopped listening on port 41861
+1536632720615	geckodriver	INFO	Listening on 127.0.0.1:36337
+1536632721723	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536632727618	Marionette	INFO	Listening on port 44523
+1536632727664	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536632727816	Marionette	DEBUG	[2147483649] Frame script loaded
+1536632727822	Marionette	DEBUG	[2147483649] Frame script registered
+1536632727880	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536632730460	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536632730488	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632730491	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632730590	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632730751	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632732748	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632733051	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536632733052	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536632733111	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536632733189	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+
+(/usr/lib/firefox/firefox:4662): dconf-WARNING **: 21:25:33.607: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 3: too much recursion
+1536632782384	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632782573	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632782575	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632782589	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632782593	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632782646	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632782889	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632782904	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632782907	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632782934	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632783037	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632783056	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632783058	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632783086	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632783274	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632783632	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632783727	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632785086	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632785229	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632785327	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632785329	Marionette	DEBUG	[2147483649] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632785722	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536632785760	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536632785874	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1536632785875	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536632786191	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632786540	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632786858	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632787206	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632857327	Marionette	INFO	Stopped listening on port 44523
+1536632915564	geckodriver	INFO	Listening on 127.0.0.1:48293
+1536632916664	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536632922497	Marionette	INFO	Listening on port 34169
+1536632922608	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536632922748	Marionette	DEBUG	[2147483649] Frame script loaded
+1536632922750	Marionette	DEBUG	[2147483649] Frame script registered
+1536632922798	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536632926233	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536632926258	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632926261	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632926359	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632926611	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632928703	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632929065	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+
+(/usr/lib/firefox/firefox:4936): dconf-WARNING **: 21:28:49.471: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 3: too much recursion
+1536632941373	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632941479	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632941480	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632941639	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632941805	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632946713	geckodriver	INFO	Listening on 127.0.0.1:50799
+1536632947812	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536632953643	Marionette	INFO	Listening on port 34579
+1536632953751	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536632953894	Marionette	DEBUG	[2147483649] Frame script loaded
+1536632953952	Marionette	DEBUG	[2147483649] Frame script registered
+1536632954031	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536632956873	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536632956896	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632956899	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632957015	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632957316	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536632959361	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632959657	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536632959740	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 2: too much recursion
+1536632971711	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632971851	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632971853	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632971868	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632971872	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632971923	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632972198	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536632972213	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632972216	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632972247	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632972347	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536632972364	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632972366	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632972398	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632972589	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536632973013	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632973072	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632974465	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632974604	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632974703	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632974705	Marionette	DEBUG	[2147483649] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536632975093	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536632975150	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536632975280	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536632975503	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632975973	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632976284	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536632976610	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633012994	Marionette	INFO	Stopped listening on port 34169
+1536633014381	Marionette	INFO	Stopped listening on port 34579
+1536633069443	geckodriver	INFO	Listening on 127.0.0.1:39255
+1536633070547	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536633076258	Marionette	INFO	Listening on port 44089
+1536633076289	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536633076444	Marionette	DEBUG	[2147483649] Frame script loaded
+1536633076458	Marionette	DEBUG	[2147483649] Frame script registered
+1536633076516	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536633079577	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536633079605	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633079609	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633079716	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633079948	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633081957	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633082247	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536633082372	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536633082471	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 2: too much recursion
+1536633092055	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633093191	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633093193	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633093208	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633093211	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633093260	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633093591	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633093606	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633093609	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633093642	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633093784	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633093803	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633093805	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633093837	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633094008	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633094410	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633094499	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633095810	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633095956	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633096064	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633096065	Marionette	DEBUG	[2147483649] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633096466	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536633096516	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536633096631	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1536633096632	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536633096891	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633097339	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633097657	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633097994	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633098269	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633113331	Marionette	DEBUG	[4294967297] Frame script loaded
+1536633113333	Marionette	DEBUG	[4294967297] Frame script registered
+1536633116820	Marionette	INFO	Stopped listening on port 44089
+1536633227302	geckodriver	INFO	Listening on 127.0.0.1:37741
+1536633228401	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536633234182	Marionette	INFO	Listening on port 45213
+1536633234246	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536633234399	Marionette	DEBUG	[2147483649] Frame script loaded
+1536633234414	Marionette	DEBUG	[2147483649] Frame script registered
+1536633234499	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536633237101	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536633237124	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633237128	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633237242	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633237465	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633243938	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633244205	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536633244329	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536633244378	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 2: too much recursion
+1536633253787	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633253972	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633253974	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633253989	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633253992	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633254053	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633254247	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633254261	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633254266	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633254300	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633254409	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633254426	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633254428	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633254464	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633254654	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633255144	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633255215	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633256538	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633256684	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633256781	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633256783	Marionette	DEBUG	[2147483649] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633257043	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1536633257053	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536633257340	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536633257486	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536633257799	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633258148	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633258461	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633284028	Marionette	INFO	Stopped listening on port 45213
+1536633438050	geckodriver	INFO	Listening on 127.0.0.1:57787
+1536633439151	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536633444963	Marionette	INFO	Listening on port 37557
+1536633445001	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536633445150	Marionette	DEBUG	[2147483649] Frame script loaded
+1536633445153	Marionette	DEBUG	[2147483649] Frame script registered
+1536633445242	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536633448234	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536633448259	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633448262	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633448359	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633448521	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633451919	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633452243	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536633452246	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536633452320	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+
+(/usr/lib/firefox/firefox:5847): dconf-WARNING **: 21:37:32.696: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 3: too much recursion
+1536633467111	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633467276	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633467277	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633467293	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633467297	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633467349	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633467613	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633467629	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633467633	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633467665	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633467764	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633467782	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633467784	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633467815	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633468029	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633468412	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633468605	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1536633468606	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1536633469651	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633470935	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633471072	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633471177	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633471179	Marionette	DEBUG	[2147483649] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633471547	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536633471604	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536633472107	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633472444	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633472764	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633502398	geckodriver	INFO	Listening on 127.0.0.1:34541
+1536633503499	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536633507393	Marionette	INFO	Stopped listening on port 37557
+1536633509512	Marionette	INFO	Listening on port 37835
+1536633509543	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536633509702	Marionette	DEBUG	[2147483649] Frame script loaded
+1536633509705	Marionette	DEBUG	[2147483649] Frame script registered
+1536633509843	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536633512511	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536633512536	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633512540	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633512638	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633512799	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633515431	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633515620	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536633515662	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536633516047	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 3: too much recursion
+1536633525426	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633525544	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633525546	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633525560	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633525564	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633525610	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633525811	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633525826	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633525829	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633525859	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633525973	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536633525991	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633525993	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633526022	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633526231	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536633526638	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633526762	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1536633526820	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1536633527875	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633529155	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633529302	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633529411	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633529412	Marionette	DEBUG	[2147483649] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536633529809	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536633529876	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536633530000	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536633530250	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633530717	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633531044	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633531398	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633536729	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633537018	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536633577267	Marionette	INFO	Stopped listening on port 37835
+1536633905239	geckodriver	INFO	Listening on 127.0.0.1:38085
+1536633906339	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536633912197	Marionette	INFO	Listening on port 46303
+1536633912283	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536633912429	Marionette	DEBUG	[2147483649] Frame script loaded
+1536633912444	Marionette	DEBUG	[2147483649] Frame script registered
+1536633912497	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536633915323	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536633915348	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633915352	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633915447	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633915920	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633919634	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633920612	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536633920805	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536633920883	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633938673	Marionette	DEBUG	[4294967297] Frame script loaded
+1536633938675	Marionette	DEBUG	[4294967297] Frame script registered
+1536633975566	geckodriver	INFO	Listening on 127.0.0.1:42559
+1536633976677	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536633979266	Marionette	INFO	Stopped listening on port 46303
+1536633982778	Marionette	INFO	Listening on port 40973
+1536633982818	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536633982970	Marionette	DEBUG	[2147483649] Frame script loaded
+1536633982991	Marionette	DEBUG	[2147483649] Frame script registered
+1536633983074	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536633985319	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536633985345	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633985349	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633985459	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633985645	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536633988293	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536633988552	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536633988603	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536633988698	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536634139214	Marionette	INFO	Stopped listening on port 40973
+1536634287724	geckodriver	INFO	Listening on 127.0.0.1:53649
+1536634288831	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536634294987	Marionette	INFO	Listening on port 34461
+1536634295082	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536634295220	Marionette	DEBUG	[2147483649] Frame script loaded
+1536634295246	Marionette	DEBUG	[2147483649] Frame script registered
+1536634295301	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536634297763	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536634297786	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634297789	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634297882	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634298069	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634301217	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536634301581	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536634301646	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536634302585	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+
+(/usr/lib/firefox/firefox:6994): dconf-WARNING **: 21:51:42.957: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1536634350564	geckodriver	INFO	Listening on 127.0.0.1:58677
+1536634351665	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536634357635	Marionette	INFO	Listening on port 45791
+1536634357738	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536634357888	Marionette	DEBUG	[2147483649] Frame script loaded
+1536634357890	Marionette	DEBUG	[2147483649] Frame script registered
+1536634357944	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536634360818	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536634360845	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634360849	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634360945	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634361183	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634363379	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536634363610	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536634363684	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536634363849	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536634363903	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+
+(/usr/lib/firefox/firefox:7202): dconf-WARNING **: 21:52:56.427: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1536634376682	Marionette	DEBUG	[4294967297] Frame script loaded
+1536634376684	Marionette	DEBUG	[4294967297] Frame script registered
+1536634380421	Marionette	INFO	Stopped listening on port 34461
+1536634393413	Marionette	INFO	Stopped listening on port 45791
+1536634410587	geckodriver	INFO	Listening on 127.0.0.1:40897
+1536634411687	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536634417515	Marionette	INFO	Listening on port 44687
+1536634417624	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536634417766	Marionette	DEBUG	[2147483649] Frame script loaded
+1536634417768	Marionette	DEBUG	[2147483649] Frame script registered
+1536634417836	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536634420777	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536634420802	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634420812	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634420901	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634421075	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634423309	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536634423543	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536634423832	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536634424660	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+
+(/usr/lib/firefox/firefox:7446): dconf-WARNING **: 21:53:45.038: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1536634474878	Marionette	INFO	Stopped listening on port 44687
+1536634639807	geckodriver	INFO	Listening on 127.0.0.1:39085
+1536634640910	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536634646640	Marionette	INFO	Listening on port 45589
+1536634646749	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536634646898	Marionette	DEBUG	[2147483649] Frame script loaded
+1536634646900	Marionette	DEBUG	[2147483649] Frame script registered
+1536634646998	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536634650586	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536634650624	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634650627	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634650717	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634650872	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634658157	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536634658357	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536634658527	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536634658556	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536634658605	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+
+(/usr/lib/firefox/firefox:7699): dconf-WARNING **: 21:57:40.364: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1536634660622	Marionette	DEBUG	[4294967297] Frame script loaded
+1536634660624	Marionette	DEBUG	[4294967297] Frame script registered
+1536634663148	Marionette	INFO	Stopped listening on port 45589
+1536634983364	geckodriver	INFO	Listening on 127.0.0.1:40987
+1536634984459	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536634990187	Marionette	INFO	Listening on port 42323
+1536634990330	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536634990472	Marionette	DEBUG	[2147483649] Frame script loaded
+1536634990483	Marionette	DEBUG	[2147483649] Frame script registered
+1536634990545	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536634993051	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536634993076	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634993079	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634993176	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634993424	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536634996171	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536634996442	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536634996559	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536634996626	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635033933	Marionette	INFO	Stopped listening on port 42323
+1536635042628	geckodriver	INFO	Listening on 127.0.0.1:49929
+1536635043728	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536635049476	Marionette	INFO	Listening on port 40089
+1536635049584	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536635049730	Marionette	DEBUG	[2147483649] Frame script loaded
+1536635049741	Marionette	DEBUG	[2147483649] Frame script registered
+1536635049805	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536635051315	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536635051340	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536635051343	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536635051439	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536635051614	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536635054138	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635054402	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536635054478	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1536635054686	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536635054932	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+
+(/usr/lib/firefox/firefox:8209): dconf-WARNING **: 22:04:15.428: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 3: too much recursion
+1536635078363	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635078684	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635078686	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635078699	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635078703	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635078752	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635079059	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635079074	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536635079077	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536635079113	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536635079239	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536635079259	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536635079260	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536635079291	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536635079576	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536635080719	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536635080878	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1536635080878	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1536635082087	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536635083363	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635083518	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536635083635	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536635083636	Marionette	DEBUG	[2147483649] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536635084102	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1536635084104	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536635084104	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536635084325	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536635084692	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635085037	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635085353	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635085689	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635096025	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635096291	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635106621	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635106893	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635117224	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635117492	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635127875	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635128162	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635138533	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635138809	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635149139	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635149406	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635159752	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635160015	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635170339	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635170618	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635180952	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635181219	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635191569	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635191839	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635202189	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635202463	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635404632	Marionette	INFO	Stopped listening on port 40089
+1536635409820	geckodriver	INFO	Listening on 127.0.0.1:33583
+1536635410914	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1536635416870	Marionette	INFO	Listening on port 43469
+1536635416977	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536635417113	Marionette	DEBUG	[2147483649] Frame script loaded
+1536635417116	Marionette	DEBUG	[2147483649] Frame script registered
+1536635417184	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536635418592	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536635418618	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536635418621	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536635418718	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536635419008	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1536635421295	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635421511	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1536635421919	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1536635422645	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+
+(/usr/lib/firefox/firefox:8470): dconf-WARNING **: 22:10:23.005: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 3: too much recursion
+1536635434227	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635434341	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635434343	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635434358	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635434362	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635434411	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635434607	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1536635434622	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536635434626	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536635434661	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536635434777	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1536635434795	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536635434797	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536635434838	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536635435037	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1536635435553	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536635435609	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536635436912	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635437052	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536635437143	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536635437144	Marionette	DEBUG	[2147483649] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1536635437505	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536635437566	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1536635437677	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1536635437678	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536635437910	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635438363	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635438679	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635439040	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635449384	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635449655	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635459972	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635460250	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635470593	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635470863	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635481177	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635481451	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635491839	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635492114	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635502481	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635502760	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635513112	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635513385	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635523726	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635523990	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635534307	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635534581	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635544918	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635545184	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635555553	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1536635555828	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
