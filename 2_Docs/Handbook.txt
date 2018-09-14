@@ -1,0 +1,15 @@
+SAT-Assitant Handbook
+
+Git Repository:
+  https://github.com/shiomar1108/SAT-Assistant/
+  
+Software package needed:
+  Phyton 2.7
+  Selenium Webdriver
+  Mozilla Webdriver: geckodriver
+  
+To Run the code:
+  1) Make sure you have all the packages
+  2) Open terminal on Git Repo Folder
+  3) Use instruction Python Hello.py
+  4) BE HAPPY
