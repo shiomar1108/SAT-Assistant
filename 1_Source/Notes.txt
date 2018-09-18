@@ -1,0 +1,16 @@
+save captcha
+https://gist.github.com/spirkaa/4c3b8ad8fd34324bd307
+https://pythonspot.com/selenium-get-images/
+
+found how many xml hay:
+https://stackoverflow.com/questions/27788397/count-the-number-of-elements-found-in-selenium-python
+
+XML BTN CLASS NAME: BtnDescarga
+
+Automatically download
+http://toolsqa.com/selenium-webdriver/how-to-download-files-using-selenium/
+http://toolsqa.com/selenium-webdriver/how-to-download-files-using-selenium/
+
+Launch as exe
+https://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency
+https://medium.com/dreamcatcher-its-blog/making-an-stand-alone-executable-from-a-python-script-using-pyinstaller-d1df9170e263
