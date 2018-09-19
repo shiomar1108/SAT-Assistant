@@ -8,6 +8,7 @@ Software package needed:
   Selenium Webdriver
   Mozilla Webdriver: geckodriver
   Pillow Package
+  Pyinstaller Package
   
 To Run the code:
   1) Make sure you have all the packages
