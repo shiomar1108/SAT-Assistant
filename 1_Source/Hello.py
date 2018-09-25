@@ -29,7 +29,7 @@ def get_captcha(driver, element, path):
 months = ['01','02','03','04','05','06','07','08','09','10','11','12']
 
 # Read Credentials from file and year for calculations.
-file = open("/home/shiomar/Desktop/SAT/1_Source/1_Keys/credenciales.txt", "r")
+file = open(os.path.join(os.path.abspath(os.path.dirname(__file__)), "1_Keys\credenciales.txt"), "r")
 rfc = file.readline()
 clave = file.readline()
 year = file.readline()
