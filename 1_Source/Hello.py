@@ -46,6 +46,9 @@ profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/oc
 # Initialize Firefox explorer.
 browser = webdriver.Firefox(firefox_profile=profile)
 
+# Resize the window to the screen width/height
+browser.set_window_size(300, 500)
+
 # Reach CDFI Portal
 browser.get('https://portalcfdi.facturaelectronica.sat.gob.mx/')
 
