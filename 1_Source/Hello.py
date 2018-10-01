@@ -5,6 +5,13 @@ import requests
 import os, sys
 from PIL import Image
 
+# Function to list all XML's files
+def GetXMLs():
+    dirs = os.listdir(os.path.join(os.path.abspath(os.path.dirname(__file__)), "2_XMLS"))
+    for file in dirs:
+        if file.endswith('.xml'):
+            print(file)
+
 # Function to save the Captcha image
 def get_captcha(driver, element, path):
     # now that we have the preliminary stuff out of the way time to get that image :D
@@ -24,6 +31,7 @@ def get_captcha(driver, element, path):
     image = image.crop((left, top, right, bottom))  # defines crop points
     image.save(path, 'png')  # saves new cropped image
 
+GetXMLs()
 
 # Global variables
 months = ['01','02','03','04','05','06','07','08','09','10','11','12']
@@ -62,10 +70,8 @@ imgPath = os.getcwd() + '/3_Captcha/captcha.png'
 pic = browser.find_element_by_xpath( "//label[@for='jcaptcha']")
 get_captcha(browser, pic, imgPath)
 
-
-
 # Captcha part.
-text = raw_input("Write the Captcha...  ")
+text = input("Write the Captcha...  ")
 element = browser.find_element_by_id('jcaptcha')
 element = element.send_keys(text)
 
