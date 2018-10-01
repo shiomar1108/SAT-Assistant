@@ -15,3 +15,6 @@ To Run the code:
   2) Open terminal on Git Repo Folder
   3) Use instruction Python Hello.py
   4) BE HAPPY
+
+To run a tip generator (function that show a random advice), use the following comand in CMD:
+  python -c 'from tip_gen import *; print tip_gen()'
