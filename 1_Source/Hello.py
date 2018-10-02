@@ -5,6 +5,7 @@ import requests
 import os, sys
 from PIL import Image
 from selenium.common.exceptions import *
+import shutil
 
 try:
 	# Function to list all XML's files
@@ -32,16 +33,18 @@ try:
 
 	    image = image.crop((left, top, right, bottom))  # defines crop points
 	    image.save(path, 'png')  # saves new cropped image
-	    print(path)
-
 
 	# Global variables
 	months = ['01','02','03','04','05','06','07','08','09','10','11','12']
 
 	# Read Credentials from file and year for calculations.
+<<<<<<< HEAD
 	filePath = os.path.join(os.path.abspath(os.path.dirname(__file__)), "1_Keys\credenciales.txt")
 	print(filePath)
 	file = open(filePath, "r")
+=======
+	file = open(os.path.join(os.getcwd(), "1_Keys/credenciales.txt"), "r")
+>>>>>>> e84dbde4ad49466493dabfae954103bd5a0930d5
 	rfc = file.readline()
 	clave = file.readline()
 	year = file.readline()
@@ -49,8 +52,13 @@ try:
 
 	#Configure Firefox Web Driver to set the absolute path for the XML files.
 	downloadPath = os.path.join(os.getcwd(), "2_XMLS")
+<<<<<<< HEAD
 	print(downloadPath)
 
+=======
+	shutil.rmtree(downloadPath)
+	os.makedirs(downloadPath)
+>>>>>>> e84dbde4ad49466493dabfae954103bd5a0930d5
 	profile = webdriver.FirefoxProfile()
 	profile.set_preference("browser.download.folderList", 2)
 	profile.set_preference("browser.download.manager.showWhenStarting", False)
@@ -75,9 +83,11 @@ try:
 	element = element.send_keys(clave)
 
 	# Saving Captcha image.
-	imgPath = os.getcwd() + '\\3_Captcha\\captcha.png'
+	imgPath = os.path.join(os.getcwd(), '3_Captcha')
+	shutil.rmtree(imgPath)
+	os.makedirs(imgPath)
 	pic = browser.find_element_by_xpath( "//label[@for='jcaptcha']")
-	get_captcha(browser, pic, imgPath)
+	get_captcha(browser, pic, os.path.join(imgPath,'captcha.png'))
 
 	# Captcha part.
 	text = raw_input("Write the Captcha...  ")
