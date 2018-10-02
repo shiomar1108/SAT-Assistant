@@ -5,6 +5,7 @@ import requests
 import os, sys
 from PIL import Image
 from selenium.common.exceptions import *
+import shutil
 
 try:
 	# Function to save the Captcha image
@@ -31,7 +32,7 @@ try:
 	months = ['01','02','03','04','05','06','07','08','09','10','11','12']
 
 	# Read Credentials from file and year for calculations.
-	file = open("/home/shiomar/Desktop/SAT/1_Source/1_Keys/credenciales.txt", "r")
+	file = open(os.getcwd() + "/1_Keys/credenciales.txt", "r")
 	rfc = file.readline()
 	clave = file.readline()
 	year = file.readline()
@@ -39,6 +40,8 @@ try:
 
 	#Configure Firefox Web Driver to set the absolute path for the XML files.
 	downloadPath = os.getcwd() + '/2_XMLS'
+	shutil.rmtree(downloadPath)
+	os.makedirs(downloadPath)
 	profile = webdriver.FirefoxProfile()
 	profile.set_preference("browser.download.folderList", 2)
 	profile.set_preference("browser.download.manager.showWhenStarting", False)
@@ -64,6 +67,8 @@ try:
 
 	# Saving Captcha image.
 	imgPath = os.getcwd() + '/3_Captcha/captcha.png'
+	shutil.rmtree(imgPath)
+	os.makedirs(imgPath)
 	pic = browser.find_element_by_xpath( "//label[@for='jcaptcha']")
 	get_captcha(browser, pic, imgPath)
 

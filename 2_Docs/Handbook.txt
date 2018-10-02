@@ -4,7 +4,7 @@ Git Repository:
   https://github.com/shiomar1108/SAT-Assistant/
   
 Software package needed:
-  Phyton 2.7
+  Phyton 2.7 (DO NOT USE OTHER PYTHON VERSION)
   Selenium Webdriver
   Mozilla Webdriver: geckodriver
   Pillow Package
