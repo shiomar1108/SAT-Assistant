@@ -8,7 +8,14 @@ from selenium.common.exceptions import *
 import shutil
 
 try:
-	# Function to save the Captcha image
+	# Function to list all XML's files
+	def GetXMLs():
+		dirs = os.listdir(os.path.join(os.path.abspath(os.path.dirname(__file__)), "2_XMLS"))
+		for file in dirs:
+			if file.endswith('.xml'):
+				print(file)
+
+    # Function to save the Captcha image
 	def get_captcha(driver, element, path):
 	    # now that we have the preliminary stuff out of the way time to get that image :D
 	    location = element.location
@@ -26,6 +33,7 @@ try:
 
 	    image = image.crop((left, top, right, bottom))  # defines crop points
 	    image.save(path, 'png')  # saves new cropped image
+	    print(path)
 
 
 	# Global variables
@@ -39,9 +47,9 @@ try:
 	file.close()
 
 	#Configure Firefox Web Driver to set the absolute path for the XML files.
-	downloadPath = os.getcwd() + '/2_XMLS'
-	shutil.rmtree(downloadPath)
 	os.makedirs(downloadPath)
+	shutil.rmtree(downloadPath)
+	downloadPath = os.getcwd() + '/2_XMLS'
 	profile = webdriver.FirefoxProfile()
 	profile.set_preference("browser.download.folderList", 2)
 	profile.set_preference("browser.download.manager.showWhenStarting", False)
@@ -73,7 +81,7 @@ try:
 	get_captcha(browser, pic, imgPath)
 
 	# Captcha part.
-	text = raw_input("Write the Captcha...  ")
+	text = input("Write the Captcha...  ")
 	element = browser.find_element_by_id('jcaptcha')
 	element = element.send_keys(text)
 
@@ -119,6 +127,8 @@ try:
 
 		# Message of completation a month.
 		print('Full month done...')
+
+	GetXMLs()
 
 	# Close browser after whole download process.
 	browser.close()
