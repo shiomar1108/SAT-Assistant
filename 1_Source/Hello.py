@@ -47,6 +47,7 @@ try:
 	#Configure Firefox Web Driver to set the absolute path for the XML files.
 	downloadPath = os.path.join(os.getcwd(), "2_XMLS")
 	shutil.rmtree(downloadPath)
+	sleep(1)
 	os.makedirs(downloadPath)
 	profile = webdriver.FirefoxProfile()
 	profile.set_preference("browser.download.folderList", 2)
@@ -58,7 +59,7 @@ try:
 	browser = webdriver.Firefox(firefox_profile=profile)
 
 	# Resize the window to the screen width/height
-	browser.set_window_size(1000, 1000)
+	browser.set_window_size(1000, 500)
 
 	# Reach CDFI Portal
 	browser.get('https://portalcfdi.facturaelectronica.sat.gob.mx/')
@@ -74,6 +75,7 @@ try:
 	# Saving Captcha image.
 	imgPath = os.path.join(os.getcwd(), '3_Captcha')
 	shutil.rmtree(imgPath)
+	sleep(1)
 	os.makedirs(imgPath)
 	pic = browser.find_element_by_xpath( "//label[@for='jcaptcha']")
 	get_captcha(browser, pic, os.path.join(imgPath,'captcha.png'))
