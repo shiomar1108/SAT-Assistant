@@ -39,14 +39,16 @@ try:
 	months = ['01','02','03','04','05','06','07','08','09','10','11','12']
 
 	# Read Credentials from file and year for calculations.
-	file = open(os.path.join(os.path.abspath(os.path.dirname(__file__)), "1_Keys\credenciales.txt"), "r")
+	filePath = os.path.join(os.path.abspath(os.path.dirname(__file__)), "1_Keys\credenciales.txt")
+	print(filePath)
+	file = open(filePath, "r")
 	rfc = file.readline()
 	clave = file.readline()
 	year = file.readline()
 	file.close()
 
 	#Configure Firefox Web Driver to set the absolute path for the XML files.
-	downloadPath = os.getcwd() + '\\2_XMLS'
+	downloadPath = os.path.join(os.getcwd(), "2_XMLS")
 	print(downloadPath)
 
 	profile = webdriver.FirefoxProfile()
@@ -78,7 +80,7 @@ try:
 	get_captcha(browser, pic, imgPath)
 
 	# Captcha part.
-	text = input("Write the Captcha...  ")
+	text = raw_input("Write the Captcha...  ")
 	element = browser.find_element_by_id('jcaptcha')
 	element = element.send_keys(text)
 
