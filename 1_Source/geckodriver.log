@@ -12874,3 +12874,684 @@ rionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
 [GPU 1604, Chr
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1538436909942	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JULIOV~1\\AppData\\Local\\Temp\\rust_mozprofile.Sgn1HnzBX3Dp"
+[Parent 3828, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 3828, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1538436941757	Marionette	INFO	Listening on port 57697
+1538436942512	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538436942596	Marionette	DEBUG	[6442450945] Frame script loaded
+1538436943000	Marionette	DEBUG	[6442450945] Frame script registered
+1538436944559	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538436944768	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538436944830	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538436945571	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for about:neterror?e=dnsNotFound&u=https%3A//portalcfdi.facturaelectronica.sat.gob.mx/&c=UTF-8&f=regular&d=No%20podemos%20conectar%20al%20servidor%20en%20portalcfdi.facturaelectronica.sat.gob.mx.
+[Parent 3828, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3828, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23748, Chrome_ChildThread] WARNING: pipe error: 109: file z:[Parent 3828, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16436, Chrome_ChildThread] WARNING: pipe e1538436979322	Marionette	INFO	Stopped listening on port 57697
+[GPU 21520, Chrome_ChildThread] 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538436986954	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JULIOV~1\\AppData\\Local\\Temp\\rust_mozprofile.vvbafhbwfIBV"
+1538436992405	Marionette	INFO	Listening on port 57777
+1538436992497	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538436992527	Marionette	DEBUG	[6442450945] Frame script loaded
+1538436992549	Marionette	DEBUG	[6442450945] Frame script registered
+1538436992566	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538436995704	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538436995721	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538436995725	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538436995801	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538436995890	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538436998954	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538436999308	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1538436999324	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 2: too much recursion
+1538437011561	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538437016766	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 10256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10256, Chrome_ChildThread] WARNING: pipe error: 109: [Child 9064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9064, Chrome_ChildThrea[Parent 24848, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538437030606	Marionette	INFO	Stopped listening on port 57777
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538437036552	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JULIOV~1\\AppData\\Local\\Temp\\rust_mozprofile.gRJCmzp1x8iJ"
+1538437041582	Marionette	INFO	Listening on port 57827
+1538437041983	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538437042057	Marionette	DEBUG	[6442450945] Frame script loaded
+1538437042058	Marionette	DEBUG	[6442450945] Frame script registered
+1538437042078	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538437042099	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538437042101	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538437042153	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for about:neterror?e=dnsNotFound&u=https%3A//portalcfdi.facturaelectronica.sat.gob.mx/&c=UTF-8&f=regular&d=No%20podemos%20conectar%20al%20servidor%20en%20portalcfdi.facturaelectronica.sat.gob.mx.
+1538437042557	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+[Parent 10652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 30012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 30012, Chr[Child 28368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28368, Chromeconsole.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 632))
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1538437046134	Marionette	INFO	Stopped listening on port 57827
+[GPU 12632, Chrome_ChildThrea
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538437070573	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JULIOV~1\\AppData\\Local\\Temp\\rust_mozprofile.WsZFgtl9gU9d"
+1538437075741	Marionette	INFO	Listening on port 57901
+1538437075998	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538437076092	Marionette	DEBUG	[6442450945] Frame script loaded
+1538437076097	Marionette	DEBUG	[6442450945] Frame script registered
+1538437076141	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538437107821	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538437107821	Marionette	DEBUG	[6442450945] Received DOM event unload for about:blank
+1538437107822	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450945
+[Parent 10680, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10680, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10680, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538437109205	Marionette	INFO	Stopped listening on port 57901
+[GPU 14420, Chrome_ChildThread]
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538437114441	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JULIOV~1\\AppData\\Local\\Temp\\rust_mozprofile.Yi0uvZ6z0SY0"
+1538437120436	Marionette	INFO	Listening on port 57935
+1538437120485	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538437120516	Marionette	DEBUG	[6442450945] Frame script loaded
+1538437120530	Marionette	DEBUG	[6442450945] Frame script registered
+1538437120550	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538437120559	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538437120560	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538437120586	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for about:neterror?e=dnsNotFound&u=https%3A//portalcfdi.facturaelectronica.sat.gob.mx/&c=UTF-8&f=regular&d=No%20podemos%20conectar%20al%20servidor%20en%20portalcfdi.facturaelectronica.sat.gob.mx.
+1538437122111	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://activity-stream/lib/ActivityStreamPrefs.jsm :: ignoreBranch :: line 29"  data: no] Stack trace: ignoreBranch()@resource://activity-stream/lib/ActivityStreamPrefs.jsm:29
+uninit()@resource://activity-stream/lib/Store.jsm:172
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:363
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:86
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:194
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:1592
+_shutdown()@resource://gre/modules/addons/XPIProvider.jsm:1728
+observe()@resource://gre/modules/AsyncShutdown.jsm:541
+[Child 23784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23784, Ch[Child 18324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18324, Chr[Parent 25636, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1538437125880	Marionette	INFO	Stopped listening on port 57935
+[GPU 27596, Chrome_ChildT[Parent 25636, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1538437930961	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JULIOV~1\\AppData\\Local\\Temp\\rust_mozprofile.PVuoYGXPxbCa"
+1538437936206	Marionette	INFO	Listening on port 58183
+1538437936604	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538437936726	Marionette	DEBUG	[6442450945] Frame script loaded
+1538437936789	Marionette	DEBUG	[6442450945] Frame script registered
+1538437937318	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538437940900	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538437940920	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538437940923	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538437940999	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538437941184	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538437943335	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538437943605	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1538437943605	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1538437943626	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1538437943727	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+[Child 21316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc[Child 28760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28760, Chr[Parent 30360, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2460, Chrome_Child1538437959583	Marionette	INFO	Stopped listening on port 58183
+[GPU 23240, Chrome_ChildThread] 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538438036084	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JULIOV~1\\AppData\\Local\\Temp\\rust_mozprofile.T2ygycLedxSZ"
+1538438040834	Marionette	INFO	Listening on port 58234
+1538438041024	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538438041080	Marionette	DEBUG	[6442450945] Frame script loaded
+1538438041081	Marionette	DEBUG	[6442450945] Frame script registered
+1538438041169	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538438047309	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538438047331	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538438047335	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538438047392	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538438047496	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538438052568	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538438052891	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1538438052909	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1538438052911	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1538438052945	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 2: too much recursion
+1538438062883	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538438062998	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538438062999	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538438063016	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538438063021	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538438063056	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538438063232	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538438063246	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538438063250	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538438063287	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538438063374	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538438063387	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538438063388	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538438063409	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538438063529	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538438063907	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538438064084	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1538438064085	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+1538438064767	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538438070055	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438070172	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538438070263	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538438070264	Marionette	DEBUG	[6442450945] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538438070443	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450965
+1538438070443	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1538438070501	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1538438070542	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1538438075835	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438076180	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438076492	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438081790	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438097081	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438105428	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438105676	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438120968	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438129314	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438129598	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438144916	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438148175	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438151508	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438154792	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438158057	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438161603	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438164863	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438168214	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438171585	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438180736	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438181150	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438196508	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438199791	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438203192	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438206467	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438209807	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438218629	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438218938	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438234242	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438237513	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438240775	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438244067	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438247316	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438250610	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438253888	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438257131	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438260373	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438263646	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438271951	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438272184	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438287477	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438290768	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438294085	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438297329	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438305619	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438305902	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438321228	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438329625	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438329878	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438345167	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438348433	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438351729	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438354974	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438358218	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438361526	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438364798	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438368086	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438371331	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438379701	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438379945	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438395193	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438398433	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438401667	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438404923	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438408266	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438411489	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438419870	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438420145	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438435398	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438438660	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438441923	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438445143	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438448389	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438451656	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438454915	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438458173	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438466483	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438466738	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438481987	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438485263	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438488576	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438491871	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438495171	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438498470	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438501753	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438510053	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438510286	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438525574	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438528888	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438532188	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438535491	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438538775	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538438541817	Marionette	INFO	Stopped listening on port 58234
+[Child 28176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line[Parent 25116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc[GPU 5848, Chrome_1538438968402	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JULIOV~1\\AppData\\Local\\Temp\\rust_mozprofile.KDsKuptZJs8a"
+1538438973990	Marionette	INFO	Listening on port 58410
+1538438974446	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538438974498	Marionette	DEBUG	[6442450945] Frame script loaded
+1538438974501	Marionette	DEBUG	[6442450945] Frame script registered
+1538438974566	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538438978187	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538438978203	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538438978204	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538438978253	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538438978426	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538438983375	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538438983608	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1538438983623	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1538438983632	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1538438983720	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 2: too much recursion
+1538439020072	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439020179	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439020180	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439020195	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439020198	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439020230	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439020370	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439020381	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538439020388	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538439020414	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538439020542	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538439020564	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538439020566	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538439020593	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538439020851	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538439021193	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538439021275	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1538439021275	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+1538439022043	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538439027289	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439027405	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538439027488	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538439027489	Marionette	DEBUG	[6442450945] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538439027768	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1538439027788	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450965
+1538439027788	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1538439027872	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1538439033167	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439033484	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439033780	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439039101	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439054401	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439062784	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439063075	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439078368	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439086766	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439087067	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439102310	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439105540	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 16448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 24236, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538439591297	Marionette	INFO	Stopped listening on port 58410
+[GPU 1824, Chrome_ChildThread] WAR
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+annel_win.cc, line 346
+[Child 26500, Chro[GPU 14420, Chrome_ChildThr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538439140370	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JULIOV~1\\AppData\\Local\\Temp\\rust_mozprofile.FTGAyFhcJgGA"
+1538439145523	Marionette	INFO	Listening on port 58533
+1538439145814	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538439145914	Marionette	DEBUG	[6442450945] Frame script loaded
+1538439145917	Marionette	DEBUG	[6442450945] Frame script registered
+1538439146104	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538439149927	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538439149945	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439149947	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439150034	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439150196	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439152706	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439152900	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1538439152946	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1538439153154	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1538439153192	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 2: too much recursion
+1538439163925	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439164049	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439164050	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439164066	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439164070	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439164104	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439164258	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439164273	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538439164277	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538439164301	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538439164374	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538439164384	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538439164386	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538439164409	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538439164532	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538439164843	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538439164933	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1538439164933	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+1538439166087	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538439171359	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439171526	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538439171608	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538439171609	Marionette	DEBUG	[6442450945] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538439172085	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1538439172189	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450965
+1538439172191	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1538439172434	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1538439177725	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439177999	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439178260	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439183571	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439198832	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439207236	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439207509	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439222814	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439231185	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439231463	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439246775	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439250082	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439253382	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439256639	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439259895	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439263187	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439266459	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439269726	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439273041	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439281435	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439281679	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439296963	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439300244	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439303555	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439306802	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439310076	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439318344	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439318579	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 17380, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28348, Chrome_ChildThread] WARNING: p[Child 15672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15672, Chrome1538439590839	Marionette	INFO	Stopped listening on port 58533
+[GPU 26336, Chrome_ChildThr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+de for about:blank
+1538439353267	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439353268	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439353305	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439353478	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439359366	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439359892	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1538439359945	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1538439359947	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1538439359990	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+[Child 13600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13600, Chrome_ChildThread] WARNING: pipe error: 109: file[Child 14520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14520,1538439588563	Marionette	INFO	Stopped listening on port 58608
+[GPU 4408, Chrome_ChildThread] WA
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+945] Received DOM event beforeunload for about:blank
+1538439458058	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538439458076	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439458078	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439458174	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439458315	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439462204	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439462412	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1538439462441	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1538439462558	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+[Parent 25708, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29908, Chrome_Child1538439587095	Marionette	INFO	Stopped listening on port 58662
+[GPU 6132, Chrome_ChildThrea
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538439651445	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JULIOV~1\\AppData\\Local\\Temp\\rust_mozprofile.0eBQWrLR5ScU"
+1538439656560	Marionette	INFO	Listening on port 58751
+1538439656881	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538439656975	Marionette	DEBUG	[6442450945] Frame script loaded
+1538439656977	Marionette	DEBUG	[6442450945] Frame script registered
+1538439657077	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538439661130	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538439661170	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439661171	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439661214	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439661772	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439665492	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439665785	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1538439665785	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1538439665785	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1538439665859	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439681520	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 24788, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 24788, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chr1538439924437	Marionette	INFO	Stopped listening on port 58751
+[GPU 5444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439705180	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439705269	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439708275	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439708443	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1538439708471	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1538439708555	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1538439708629	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+[Parent 12172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538439920488	Marionette	INFO	Stopped listening on port 58802
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+loaded
+1538439872714	Marionette	DEBUG	[6442450945] Frame script registered
+1538439872870	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538439877994	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538439878001	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439878002	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439878049	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439878550	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439880936	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439881145	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1538439881209	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 3: too much recursion
+1538439910583	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439910661	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439910672	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439910768	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439910871	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+[Parent 29760, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/buil[Child 2104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538439924239	Marionette	INFO	Stopped listening on port 58851
+[GPU 28968, Chrome_ChildThr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538439935353	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JULIOV~1\\AppData\\Local\\Temp\\rust_mozprofile.FgioHIYuqoy1"
+1538439940928	Marionette	INFO	Listening on port 58902
+1538439941391	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538439941470	Marionette	DEBUG	[6442450945] Frame script loaded
+1538439941471	Marionette	DEBUG	[6442450945] Frame script registered
+1538439941552	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538439944614	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1538439944627	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439944629	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439944711	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439944873	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed_redir_cont_portalcfdi.jsp?wa=wsignin1.0&wtrealm=https%3a%2f%2fcfdicontribuyentes.accessc ... RwcyUzYSUyZiUyZnBvcnRhbGNmZGkuZmFjdHVyYWVsZWN0cm9uaWNhLnNhdC5nb2IubXglMmYmY3g9cm0lM2QwJTI2aWQlM2RwYXNzaXZlJTI2cnUlM2QlMjUyZg2
+1538439947546	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439947746	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450950
+1538439947804	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1538439947823	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+JavaScript error: https://cfdiau.sat.gob.mx/nidp/javascripts/jquery.min.js, line 2: too much recursion
+1538439953249	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439953375	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439953376	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439953395	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439953398	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439953426	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439953570	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?id=SATUPCFDiCon&sid=0&option=credential&sid=0
+1538439953581	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538439953599	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538439953605	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538439953673	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdiau.sat.gob.mx/nidp/wsfed/ep?sid=0
+1538439953681	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538439953682	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538439953695	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538439953806	Marionette	DEBUG	[6442450945] Received DOM event unload for https://cfdicontribuyentes.accesscontrol.windows.net/v2/wsfederation
+1538439954061	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538439954146	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1538439954147	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+1538439954836	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538439960075	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439960190	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538439960266	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538439960271	Marionette	DEBUG	[6442450945] Received DOM event unload for https://portalcfdi.facturaelectronica.sat.gob.mx/
+1538439960506	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1538439960525	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450965
+1538439960525	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1538439960598	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://portalcfdi.facturaelectronica.sat.gob.mx/ConsultaReceptor.aspx
+1538439965852	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439966113	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439966368	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439971729	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439987009	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439995361	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538439995611	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440010907	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440019365	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440019645	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440034954	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440038290	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440041582	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440044833	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440048166	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440051401	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440054642	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440057861	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440061149	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440069578	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440069882	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440085176	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440088505	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440091785	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440095038	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440098315	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440106644	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440106878	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440122172	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440125445	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440128770	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440131999	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440135228	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440138508	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440141782	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440145009	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440148230	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440151463	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440159810	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440160121	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440175417	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440178649	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440181878	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440185147	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440193445	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440193727	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440209001	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440217375	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440217688	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440232981	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440236284	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440239636	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440242920	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440246241	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440249507	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440252783	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440256016	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440259324	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440267707	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440268014	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440283317	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440286592	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440289821	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440293043	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440296303	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440299549	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440307948	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440308212	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440323509	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440326801	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440330143	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440333376	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440336627	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440339869	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440343124	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440346367	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440354750	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440355014	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440370301	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440373585	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440376904	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440380213	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440383547	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440386818	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440390087	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440398388	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440398634	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440413916	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440417171	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440420448	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440423723	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440427026	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538440430150	Marionette	INFO	Stopped listening on port 58902
+[Child 14428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14428, C[Child 27332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2733[Parent 25288, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/c[GPU 27148, Chrome_Child
