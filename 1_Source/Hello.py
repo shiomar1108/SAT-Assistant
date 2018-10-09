@@ -47,12 +47,8 @@ try:
 	#Configure Firefox Web Driver to set the absolute path for the XML files.
 	downloadPath = os.path.join(os.getcwd(), "2_XMLS")
 	shutil.rmtree(downloadPath)
-<<<<<<< HEAD
-	os.makedirs(downloadPath, 0777)
-=======
 	sleep(1)
 	os.makedirs(downloadPath)
->>>>>>> 1700f19a98b2ed796d29f386dec268cc5c6d21fd
 	profile = webdriver.FirefoxProfile()
 	profile.set_preference("browser.download.folderList", 2)
 	profile.set_preference("browser.download.manager.showWhenStarting", False)
