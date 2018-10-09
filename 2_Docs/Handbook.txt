@@ -18,3 +18,6 @@ To Run the code:
 
 To run a tip generator (function that show a random advice), use the following comand in CMD:
   python -c 'from tip_gen import *; print tip_gen()'
+
+FOR WINDWS USER ONLY:
+- Modify "Escala y Diseño: Cambiar el tamaño del texto, las aplicaciones y otros" to 100%
