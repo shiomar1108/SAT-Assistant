@@ -1,0 +1,24 @@
+<?xml version="1.0" enconding="UTF-8"?>
+<declaraSAT>
+	<Ingresos>
+		<Nomina Descripción="Pago de Nómina" Atributo="Importe"/>
+	</Ingresos>
+	<Deducciones>
+		<HonorariosMedicos Descripción="" Atributo="" />
+		<HonorariosMedicosDentales Descripcion="" Atributo="" Tope="" />
+		<HonorariosMedicosEnfermeria Descripcion="" Atributo="" Tope="" />
+		<AnalisisMedicos Descripcion="" Atributo="" Tope="" />
+		<EstudiosClinicos Descripcion="" Atributo="" Tope="" />
+		<Protesis Descripcion="" Atributo="" Tope="" />
+		<CompraAparatosRehabilitacion Descripcion="" Atributo="" Tope="" />
+		<RentaAparatosRehabilitación Descripcion="" Atributo="" Tope="" />
+		<ServiciosProfesionalesPsicologia Descripcion="" Atributo="" Tope="" />
+		<GastosHospitalarios Descripcion="" Atributo="" >
+		<GastosFunerales Descripcion="" Atributo="" Tope="" />
+		<DonativosNoOnerosos Descripcion="" Atributo="" Tope="7%" />
+		<DonativosNoRemunerativos Descripcion="" Atributo="" Tope="" />
+		<InteresesRealesDeduciblesCreditosHipotecarios Clave="" Tope="0" Porcentaje="100%" />
+		<ServiciosDentales/>
+		<GastosMedicos Tope="" Porcentaje=""	>
+	</Deducciones>
+</declaraSAT>

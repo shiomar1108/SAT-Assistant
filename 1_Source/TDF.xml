@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<declaraSAT SalarioMinimo="">
+	<Ingresos>
+		<Nomina Descripcion="Pago de Nómina" Atributo="Importe"/>
+	</Ingresos>
+	<Deducciones>
+		<HonorariosMedicos Descripción="" Atributo="" />
+		<HonorariosMedicosDentales Descripcion="" Atributo="" />
+		<HonorariosMedicosEnfermeria Descripcion="" Atributo="" />
+		<AnalisisMedicos Descripcion="" Atributo="" />
+		<EstudiosClinicos Descripcion="" Atributo="" />
+		<Protesis Descripcion="" Atributo="" />
+		<CompraAparatosRehabilitacion Descripcion="" Atributo="" />
+		<RentaAparatosRehabilitación Descripcion="" Atributo="" />
+		<ServiciosProfesionalesPsicologia Descripcion="" Atributo="" />
+		<GastosHospitalarios Descripcion="" Atributo="" />
+		<GastosFunerales Descripcion="" Atributo="" />
+		<DonativosNoOnerosos Descripcion="" Atributo="" Tope="7%" />
+		<DonativosNoRemunerativos Descripcion="" Atributo="" Tope="7%" />
+		<DonativosOtorgadoInstitucionesEnsenianza Descripcion="" Atributo="" Tope="7%" />
+		<InteresesRealesDeduciblesCreditosHipotecarios Descripcion="" Atributo="" />
+		<AportacionesComplementariasSubcuentaAportaciones Descripcion="" Tope="10%" SalariosMinimos="5" />
+		<PrimaSeguroGastosMedicos Descripcion="" Atributo="" />
+		<PrimaSeguroGastosMedicosComplementarios Descripcion="" Atributo="" />
+		<PrimaSeguroGastosMedicosIndependientes Descripcion="" Atributo="" />
+		<TransportacionEscolar Descripcion="" Atributo="" />
+	</Deducciones>
+</declaraSAT>

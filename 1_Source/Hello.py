@@ -38,13 +38,7 @@ try:
 	months = ['01','02','03','04','05','06','07','08','09','10','11','12']
 
 	# Read Credentials from file and year for calculations.
-<<<<<<< HEAD
-	filePath = os.path.join(os.path.abspath(os.path.dirname(__file__)), "1_Keys\credenciales.txt")
-	print(filePath)
-	file = open(filePath, "r")
-=======
 	file = open(os.path.join(os.getcwd(), "1_Keys/credenciales.txt"), "r")
->>>>>>> e84dbde4ad49466493dabfae954103bd5a0930d5
 	rfc = file.readline()
 	clave = file.readline()
 	year = file.readline()
@@ -52,13 +46,8 @@ try:
 
 	#Configure Firefox Web Driver to set the absolute path for the XML files.
 	downloadPath = os.path.join(os.getcwd(), "2_XMLS")
-<<<<<<< HEAD
-	print(downloadPath)
-
-=======
 	shutil.rmtree(downloadPath)
-	os.makedirs(downloadPath)
->>>>>>> e84dbde4ad49466493dabfae954103bd5a0930d5
+	os.makedirs(downloadPath, 0777)
 	profile = webdriver.FirefoxProfile()
 	profile.set_preference("browser.download.folderList", 2)
 	profile.set_preference("browser.download.manager.showWhenStarting", False)
@@ -72,7 +61,7 @@ try:
 	browser.set_window_size(1000, 1000)
 
 	# Reach CDFI Portal
-	browser.get('https://portalcfdi.facturaelectronica.sat.gob.mx/')
+	browser.get('https://portalcfdi.facturaelectronica.sat.gob.mx/')    
 
 	# Write RFC.
 	element = browser.find_element_by_id('rfc')
