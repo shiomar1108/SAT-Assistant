@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <declaraSAT SalarioMinimo="">
+	<Namespaces>
+		<ns1 nombre="cfdi" URL="http://www.sat.gob.mx/cfd/3" />
+	</Namespaces>
 	<Ingresos>
-		<Nomina Descripcion="Pago de Nómina" Atributo="Importe"/>
+		<Nomina Node="cfdi:Concepto" Descripcion="Pago de nómina" Atributo="Importe"/>
 	</Ingresos>
 	<Deducciones>
-		<HonorariosMedicos Descripción="" Atributo="" />
+		<HonorariosMedicos Descripcion="" Atributo="" />
 		<HonorariosMedicosDentales Descripcion="" Atributo="" />
 		<HonorariosMedicosEnfermeria Descripcion="" Atributo="" />
 		<AnalisisMedicos Descripcion="" Atributo="" />
 		<EstudiosClinicos Descripcion="" Atributo="" />
 		<Protesis Descripcion="" Atributo="" />
 		<CompraAparatosRehabilitacion Descripcion="" Atributo="" />
-		<RentaAparatosRehabilitación Descripcion="" Atributo="" />
+		<RentaAparatosRehabilitacion Descripcion="" Atributo="" />
 		<ServiciosProfesionalesPsicologia Descripcion="" Atributo="" />
 		<GastosHospitalarios Descripcion="" Atributo="" />
 		<GastosFunerales Descripcion="" Atributo="" />

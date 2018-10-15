@@ -6,16 +6,51 @@ import os, sys
 from PIL import Image
 from selenium.common.exceptions import *
 import shutil
+import xml.etree.ElementTree as ET
 
 try:
+	TDFFile = os.path.join(os.getcwd(), "TDF.xml");
+	XMLdirectory = os.path.abspath(os.path.dirname(__file__));
+	incomesConcepts = [];
+	deductionsConcepts = [];
+	incomesTotal = 0;
+	XMLFiles = [];
+
 	# Function to list all XML's files
-	def GetXMLs():
-		dirs = os.listdir(os.path.join(os.path.abspath(os.path.dirname(__file__)), "2_XMLS"))
+	def GetXMLs(path):
+		dirs = os.listdir(path)
 		for file in dirs:
 			if file.endswith('.xml'):
-				print(file)
+				XMLFiles.append(os.path.join(path, file));
+	
+    # Function to get a sub-tree from a XML file
+	def GetXMLTree(fileName, treeToFind):
+		tree = [];
+		for root in ET.parse(fileName).getroot().iter(treeToFind):
+			for child in root:
+				tree.append(child);
+		return tree;
+	
+    # Function to get an elemento from a XML file
+	def GetXMLElement(fileName, nodeToFind, description, attrib):
+		namespaces = {'cfdi': 'http://www.sat.gob.mx/cfd/3'};
+		for element in ET.parse(fileName).getroot().iter():
+			ele = element.find(nodeToFind, namespaces)
+			if(ele != None):
+				if(ele.get("Descripcion") == description):
+					return float(ele.get(attrib));
+		return 0;
 
-    # Function to save the Captcha image
+    # Function to get incomesConcepts
+	def GetIncomesConcepts():
+		incomesTotal = 0;
+		incomesConcepts = GetXMLTree(TDFFile, 'Ingresos');
+		for file in XMLFiles:
+			for element in incomesConcepts:
+				incomesTotal = incomesTotal + GetXMLElement(file, element.get("Node"), element.get("Descripcion"), element.get("Atributo"));
+		print(str(incomesTotal));
+
+	# Function to save the Captcha image
 	def get_captcha(driver, element, path):
 	    # now that we have the preliminary stuff out of the way time to get that image :D
 	    location = element.location
@@ -128,11 +163,13 @@ try:
 		# Message of completation a month.
 		print('Full month done...')
 
-	GetXMLs()
+	GetXMLs(downloadPath);
+	GetIncomesConcepts();
 
 	# Close browser after whole download process.
 	browser.close()
 except (NoSuchElementException, ElementClickInterceptedException) as e:
 	print('Exception been raised...')
+	print(e);
 	browser.execute_script('arguments[0].scrollIntoView(true);', refresh_button)
 	refresh_button.click()
