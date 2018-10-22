@@ -107,34 +107,40 @@ try:
 	browser.set_window_size(1000, 500)
 
 	# Reach CDFI Portal
-	browser.get('https://portalcfdi.facturaelectronica.sat.gob.mx/')    
+	browser.get('https://portalcfdi.facturaelectronica.sat.gob.mx/')
 
-	# Write RFC.
-	element = browser.find_element_by_id('rfc')
-	element = element.send_keys(rfc)
+	current = browser.current_url
+	url_captcha = current == 'https://portalcfdi.facturaelectronica.sat.gob.mx/'
+	
+	while not url_captcha:
+		# Write RFC.
+		element = browser.find_element_by_id('rfc')
+		element = element.send_keys(rfc)
 
-	# Write Password.
-	element = browser.find_element_by_id('password')
-	element = element.send_keys(clave)
+		# Write Password.
+		element = browser.find_element_by_id('password')
+		element = element.send_keys(clave)
 
-	# Saving Captcha image.
-	imgPath = os.path.join(os.getcwd(), '3_Captcha')
-	shutil.rmtree(imgPath)
-	sleep(1)
-	os.makedirs(imgPath)
-	pic = browser.find_element_by_xpath( "//label[@for='jcaptcha']")
-	get_captcha(browser, pic, os.path.join(imgPath,'captcha.png'))
+		# Saving Captcha image.
+		imgPath = os.path.join(os.getcwd(), '3_Captcha')
+		shutil.rmtree(imgPath)
+		sleep(1)
+		os.makedirs(imgPath)
+		pic = browser.find_element_by_xpath( "//label[@for='jcaptcha']")
+		get_captcha(browser, pic, os.path.join(imgPath,'captcha.png'))
 
-	# Captcha part.
-	text = raw_input("Write the Captcha...  ")
-	element = browser.find_element_by_id('jcaptcha')
-	element = element.send_keys(text)
+		# Captcha part.
+		text = raw_input("Write the Captcha...  ")
+		element = browser.find_element_by_id('jcaptcha')
+		element = element.send_keys(text)
 
-	# Submit form.
-	element = browser.find_element_by_id('submit').click()
+		# Submit form.
+		element = browser.find_element_by_id('submit').click()
 
-	# Delay for resource optimization.
-	sleep(5)
+		current = browser.current_url
+		url_captcha = current == 'https://portalcfdi.facturaelectronica.sat.gob.mx/'
+		# Delay for resource optimization.
+		sleep(5)
 
 	# Click round button and submit.
 	element = browser.find_element_by_id('ctl00_MainContent_RdoTipoBusquedaReceptor').click() 

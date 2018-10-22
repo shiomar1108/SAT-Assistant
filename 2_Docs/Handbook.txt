@@ -1,23 +1,28 @@
-SAT-Assitant Handbook
+SAT-Assistant Handbook
 
 Git Repository:
   https://github.com/shiomar1108/SAT-Assistant/
-  
+ 
 Software package needed:
-  Phyton 2.7 (DO NOT USE OTHER PYTHON VERSION)
+  Python 2.7 (DO NOT USE OTHER PYTHON VERSION)
   Selenium Webdriver
-  Mozilla Webdriver: geckodriver
+  Mozilla Webdriver: geckodrive
   Pillow Package
   Pyinstaller Package
-  
+ 
 To Run the code:
   1) Make sure you have all the packages
   2) Open terminal on Git Repo Folder
   3) Use instruction Python Hello.py
   4) BE HAPPY
 
-To run a tip generator (function that show a random advice), use the following comand in CMD:
-  python -c 'from tip_gen import *; print tip_gen()'
+To run a tip generator (function that show a random advice), use the following command in CMD:
+    python -c 'from tip_gen import *; print tip_gen()'
 
-FOR WINDWS USER ONLY:
+To run a ticket number generator (function that assign a random ticket number), use the following command in CMD:
+    python -c 'from Ticket import *; get_ticket_id()'
+
+
+FOR WINDOWS USER ONLY:
 - Modify "Escala y Diseño: Cambiar el tamaño del texto, las aplicaciones y otros" to 100%
+
