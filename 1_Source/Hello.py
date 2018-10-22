@@ -14,6 +14,7 @@ try:
 	incomesConcepts = [];
 	deductionsConcepts = [];
 	incomesTotal = 0;
+	deductionsTotal = 0;
 	XMLFiles = [];
 
 	# Function to list all XML's files
@@ -49,6 +50,15 @@ try:
 			for element in incomesConcepts:
 				incomesTotal = incomesTotal + GetXMLElement(file, element.get("Node"), element.get("Descripcion"), element.get("Atributo"));
 		print(str(incomesTotal));
+
+   # Function to get deductionConcepts
+	def GetDeductionsConcepts():
+		deductionsTotal = 0;
+		deductionsConcepts = GetXMLTree(TDFFile, 'Deducciones');
+		for file in XMLFiles:
+			for element in deductionsConcepts:
+				deductionsTotal = deductionsTotal + GetXMLElement(file, element.get("Node"), element.get("Descripcion"), element.get("Atributo"));
+		print(str(deductionsTotal));
 
 	# Function to save the Captcha image
 	def get_captcha(driver, element, path):
