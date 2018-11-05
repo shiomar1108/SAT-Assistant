@@ -153,7 +153,7 @@ try:
 	element.send_keys(Keys.SPACE)
 
 	# Set year of calculation.
-	s1 = Select(browser.find_element_by_id('DdlAnio'))
+	s1 = Select(find_element_by_id('ctl00$MainContent$CldFecha$DdlAnio'))
 	s1.select_by_visible_text(str(year))
 
 	# Set "vigente" as a parameter.
