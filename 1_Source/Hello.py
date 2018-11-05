@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.common.keys import Keys
 from time import sleep
 import requests
 import os, sys
@@ -148,7 +149,8 @@ try:
 	sleep(5)
 
 	# Select date conditions.
-	element = browser.find_element_by_id('ctl00_MainContent_RdoFechas').click()
+	element = browser.find_element_by_id('ctl00_MainContent_RdoFechas')
+	element.send_keys(Keys.SPACE)
 
 	# Set year of calculation.
 	s1 = Select(browser.find_element_by_id('DdlAnio'))
