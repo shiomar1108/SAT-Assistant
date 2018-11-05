@@ -143,8 +143,8 @@ try:
 		sleep(5)
 
 	# Click round button and submit.
-	element = browser.find_element_by_id('ctl00_MainContent_RdoTipoBusquedaReceptor').click() 
-	element = browser.find_element_by_id('ctl00_MainContent_BtnBusqueda').click()
+	element = browser.find_element_by_xpath('//*[@title="Facturas Emitidas"]').click() 
+	#element = browser.find_element_by_id('ctl00_MainContent_BtnBusqueda').click()
 	sleep(5)
 
 	# Select date conditions.
