@@ -9,87 +9,69 @@ from selenium.common.exceptions import *
 import shutil
 import xml.etree.ElementTree as ET
 
-try:
-	TDFFile = os.path.join(os.getcwd(), "TDF.xml");
-	XMLdirectory = os.path.abspath(os.path.dirname(__file__));
-	incomesConcepts = [];
-	deductionsConcepts = [];
+# Function to list all XML's files
+def GetXMLs(path):
+	dirs = os.listdir(path)
+	for file in dirs:
+		if file.endswith('.xml'):
+			XMLFiles.append(os.path.join(path, file));
+
+# Function to get a sub-tree from a XML file
+def GetXMLTree(fileName, treeToFind):
+	tree = [];
+	for root in ET.parse(fileName).getroot().iter(treeToFind):
+		for child in root:
+			tree.append(child);
+	return tree;
+
+# Function to get an elemento from a XML file
+def GetXMLElement(fileName, nodeToFind, description, attrib):
+	namespaces = {'cfdi': 'http://www.sat.gob.mx/cfd/3'};
+	for element in ET.parse(fileName).getroot().iter():
+		ele = element.find(nodeToFind, namespaces)
+		if(ele != None):
+			if(ele.get("Descripcion") == description):
+				return float(ele.get(attrib));
+	return 0;
+
+# Function to get incomesConcepts
+def GetIncomesConcepts():
 	incomesTotal = 0;
+	incomesConcepts = GetXMLTree(TDFFile, 'Ingresos');
+	for file in XMLFiles:
+		for element in incomesConcepts:
+			incomesTotal = incomesTotal + GetXMLElement(file, element.get("Node"), element.get("Descripcion"), element.get("Atributo"));
+	print(str(incomesTotal));
+
+# Function to get deductionConcepts
+def GetDeductionsConcepts():
 	deductionsTotal = 0;
-	XMLFiles = [];
+	deductionsConcepts = GetXMLTree(TDFFile, 'Deducciones');
+	for file in XMLFiles:
+		for element in deductionsConcepts:
+			deductionsTotal = deductionsTotal + GetXMLElement(file, element.get("Node"), element.get("Descripcion"), element.get("Atributo"));
+	print(str(deductionsTotal));
 
-	# Function to list all XML's files
-	def GetXMLs(path):
-		dirs = os.listdir(path)
-		for file in dirs:
-			if file.endswith('.xml'):
-				XMLFiles.append(os.path.join(path, file));
-	
-    # Function to get a sub-tree from a XML file
-	def GetXMLTree(fileName, treeToFind):
-		tree = [];
-		for root in ET.parse(fileName).getroot().iter(treeToFind):
-			for child in root:
-				tree.append(child);
-		return tree;
-	
-    # Function to get an elemento from a XML file
-	def GetXMLElement(fileName, nodeToFind, description, attrib):
-		namespaces = {'cfdi': 'http://www.sat.gob.mx/cfd/3'};
-		for element in ET.parse(fileName).getroot().iter():
-			ele = element.find(nodeToFind, namespaces)
-			if(ele != None):
-				if(ele.get("Descripcion") == description):
-					return float(ele.get(attrib));
-		return 0;
+# Function to save the Captcha image
+def get_captcha(driver, element, path):
+    # now that we have the preliminary stuff out of the way time to get that image :D
+    location = element.location
+    size = element.size
+    # saves screenshot of entire page
+    driver.save_screenshot(path)
 
-    # Function to get incomesConcepts
-	def GetIncomesConcepts():
-		incomesTotal = 0;
-		incomesConcepts = GetXMLTree(TDFFile, 'Ingresos');
-		for file in XMLFiles:
-			for element in incomesConcepts:
-				incomesTotal = incomesTotal + GetXMLElement(file, element.get("Node"), element.get("Descripcion"), element.get("Atributo"));
-		print(str(incomesTotal));
+    # uses PIL library to open image in memory
+    image = Image.open(path)
 
-   # Function to get deductionConcepts
-	def GetDeductionsConcepts():
-		deductionsTotal = 0;
-		deductionsConcepts = GetXMLTree(TDFFile, 'Deducciones');
-		for file in XMLFiles:
-			for element in deductionsConcepts:
-				deductionsTotal = deductionsTotal + GetXMLElement(file, element.get("Node"), element.get("Descripcion"), element.get("Atributo"));
-		print(str(deductionsTotal));
+    left = location['x']
+    top = location['y']
+    right = location['x'] + size['width']
+    bottom = location['y'] + size['height']
 
-	# Function to save the Captcha image
-	def get_captcha(driver, element, path):
-	    # now that we have the preliminary stuff out of the way time to get that image :D
-	    location = element.location
-	    size = element.size
-	    # saves screenshot of entire page
-	    driver.save_screenshot(path)
+    image = image.crop((left, top, right, bottom))  # defines crop points
+    image.save(path, 'png')  # saves new cropped image
 
-	    # uses PIL library to open image in memory
-	    image = Image.open(path)
-
-	    left = location['x']
-	    top = location['y']
-	    right = location['x'] + size['width']
-	    bottom = location['y'] + size['height']
-
-	    image = image.crop((left, top, right, bottom))  # defines crop points
-	    image.save(path, 'png')  # saves new cropped image
-
-	# Global variables
-	months = ['01','02','03','04','05','06','07','08','09','10','11','12']
-
-	# Read Credentials from file and year for calculations.
-	file = open(os.path.join(os.getcwd(), "1_Keys/credenciales.txt"), "r")
-	rfc = file.readline()
-	clave = file.readline()
-	year = file.readline()
-	file.close()
-
+def init ():
 	#Configure Firefox Web Driver to set the absolute path for the XML files.
 	downloadPath = os.path.join(os.getcwd(), "2_XMLS")
 	shutil.rmtree(downloadPath)
@@ -106,7 +88,15 @@ try:
 
 	# Resize the window to the screen width/height
 	browser.set_window_size(1000, 500)
+	return browser
 
+def login (browser):
+	# Read Credentials from file and year for calculations.
+	file = open(os.path.join(os.getcwd(), "1_Keys/credenciales.txt"), "r")
+	rfc = file.readline()
+	clave = file.readline()
+	year = file.readline()
+	file.close()
 	# Reach CDFI Portal
 	browser.get('https://portalcfdi.facturaelectronica.sat.gob.mx/')
 
@@ -143,6 +133,9 @@ try:
 		# Delay for resource optimization.
 		sleep(5)
 
+	return year
+		
+def download (browser,year):
 	# Click round button and submit.
 	element = browser.find_element_by_xpath('//*[@title="Facturas Recibidas"]').click()
 	#element = browser.find_element_by_id('ctl00_MainContent_BtnBusqueda').click()
@@ -182,17 +175,35 @@ try:
 		for e in xml:
 			e.click()
 			sleep(3)
-
 		# Message of completation a month.
 		print('Full month done...')
+		# Set the Window context in the proper range to avoid errors.
+		browser.execute_script("scrollBy(0,0);")
+
+
+try:
+	# Global variables
+	months = ['01','02','03','04','05','06','07','08','09','10','11','12']
+	TDFFile = os.path.join(os.getcwd(), "TDF.xml");
+	XMLdirectory = os.path.abspath(os.path.dirname(__file__));
+	incomesConcepts = [];
+	deductionsConcepts = [];
+	incomesTotal = 0;
+	deductionsTotal = 0;
+	XMLFiles = [];
+	year = 0
+
+	firefox = init()
+	year = login(firefox)
+	download(firefox , year)
 
 	GetXMLs(downloadPath);
 	GetIncomesConcepts();
 
 	# Close browser after whole download process.
 	browser.close()
+
 except (NoSuchElementException, ElementClickInterceptedException) as e:
 	print('Exception been raised...')
 	print(e);
-	browser.execute_script('arguments[0].scrollIntoView(true);', refresh_button)
-	refresh_button.click()
+	firefox.navigate().refresh();
