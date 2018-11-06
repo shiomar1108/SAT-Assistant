@@ -144,16 +144,20 @@ try:
 		sleep(5)
 
 	# Click round button and submit.
-	element = browser.find_element_by_xpath('//*[@title="Facturas Emitidas"]').click() 
+	element = browser.find_element_by_xpath('//*[@title="Facturas Recibidas"]').click()
 	#element = browser.find_element_by_id('ctl00_MainContent_BtnBusqueda').click()
 	sleep(5)
 
 	# Select date conditions.
 	element = browser.find_element_by_id('ctl00_MainContent_RdoFechas')
 	element.send_keys(Keys.SPACE)
+	sleep(2)
+
+	# Set the Window context in the proper range to avoid errors.
+	browser.execute_script("scrollBy(50,0);")
 
 	# Set year of calculation.
-	s1 = Select(browser.find_element_by_id('ctl00$MainContent$CldFecha$DdlAnio'))
+	s1 = Select(browser.find_element_by_name('ctl00$MainContent$CldFecha$DdlAnio'))
 	s1.select_by_visible_text(str(year))
 
 	# Set "vigente" as a parameter.
@@ -162,7 +166,7 @@ try:
 
 	for x in months:
 		# Set the Window context in the proper range to avoid errors.
-		browser.execute_script("scrollBy(0,100);")
+		browser.execute_script("scrollBy(50,0);")
 		#Delay for resource optimization.
 		sleep(5)
 		# Set month of calculation and submit
@@ -171,9 +175,10 @@ try:
 		element = browser.find_element_by_id('ctl00_MainContent_BtnBusqueda').click()
 		# Delay for resource optimization.
 		sleep(15)
+		browser.execute_script("scrollBy(150,0);")
 
 		# XML Download Cycle, this cycle will downloadd all the xmls of the current month.
-		xml = browser.find_elements_by_class_name("BtnDescarga")
+		xml = browser.find_elements_by_xpath('//*[@title="Descargar"]')
 		for e in xml:
 			e.click()
 			sleep(3)
