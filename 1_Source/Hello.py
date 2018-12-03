@@ -197,11 +197,13 @@ try:
 	year = login(firefox)
 	download(firefox , year)
 
+	downloadPath = os.path.join(os.getcwd(), "2_XMLS")
 	GetXMLs(downloadPath);
 	GetIncomesConcepts();
-
+	GetDeductionsConcepts();
+	print(str(Ingresos - Egresos))
 	# Close browser after whole download process.
-	browser.close()
+	firefox.close()
 
 except (NoSuchElementException, ElementClickInterceptedException) as e:
 	print('Exception been raised...')
