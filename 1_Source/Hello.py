@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.keys import Keys
@@ -19,19 +20,21 @@ def GetXMLs(path):
 # Function to get a sub-tree from a XML file
 def GetXMLTree(fileName, treeToFind):
 	tree = [];
-	for root in ET.parse(fileName).getroot().iter(treeToFind):
-		for child in root:
-			tree.append(child);
+	with open(fileName, 'r') as xml_file:
+		for root in ET.parse(xml_file).getroot().iter(treeToFind):
+			for child in root:
+				tree.append(child);
 	return tree;
 
 # Function to get an elemento from a XML file
 def GetXMLElement(fileName, nodeToFind, description, attrib):
-	namespaces = {'cfdi': 'http://www.sat.gob.mx/cfd/3'};
-	for element in ET.parse(fileName).getroot().iter():
-		ele = element.find(nodeToFind, namespaces)
-		if(ele != None):
-			if(ele.get("Descripcion") == description):
-				return float(ele.get(attrib));
+	if(nodeToFind != None):
+		namespaces = {'cfdi': 'http://www.sat.gob.mx/cfd/3'};
+		for element in ET.parse(fileName).getroot().iter():
+			ele = element.find(nodeToFind, namespaces)
+			if(ele != None):
+				if(ele.get("Descripcion") == description):
+					return float(ele.get(attrib));
 	return 0;
 
 # Function to get incomesConcepts
@@ -40,7 +43,15 @@ def GetIncomesConcepts():
 	incomesConcepts = GetXMLTree(TDFFile, 'Ingresos');
 	for file in XMLFiles:
 		for element in incomesConcepts:
-			incomesTotal = incomesTotal + GetXMLElement(file, element.get("Node"), element.get("Descripcion"), element.get("Atributo"));
+			# income = GetXMLElement(file, element.get("Node"), element.get("Descripcion"), element.get("Atributo"));
+			income = GetXMLElement(file, element.get("Node"), "Pago de nómina", element.get("Atributo"));
+			if(income > 0):
+				incomesTotal += income;
+				myElementList = [];
+				myElementList.append(element.get("Descripcion"))
+				myElementList.append(element.get("Atributo"))
+				myElementList.append(income);
+				print(myElementList);
 	print(str(incomesTotal));
 
 # Function to get deductionConcepts
@@ -49,7 +60,14 @@ def GetDeductionsConcepts():
 	deductionsConcepts = GetXMLTree(TDFFile, 'Deducciones');
 	for file in XMLFiles:
 		for element in deductionsConcepts:
-			deductionsTotal = deductionsTotal + GetXMLElement(file, element.get("Node"), element.get("Descripcion"), element.get("Atributo"));
+			deduction = GetXMLElement(file, element.get("Node"), element.get("Descripcion"), element.get("Atributo"));
+			if(deduction > 0):
+				deductionsTotal += deduction;
+				myElementList = [];
+				myElementList.extend(element.get("Descripcion"))
+				myElementList.extend(element.get("Atributo"))
+				myElementList.extend(deduction);
+				print(myElementList);
 	print(str(deductionsTotal));
 
 # Function to save the Captcha image
@@ -74,9 +92,9 @@ def get_captcha(driver, element, path):
 def init ():
 	#Configure Firefox Web Driver to set the absolute path for the XML files.
 	downloadPath = os.path.join(os.getcwd(), "2_XMLS")
-	shutil.rmtree(downloadPath)
+	# shutil.rmtree(downloadPath)
 	sleep(1)
-	os.makedirs(downloadPath)
+	# os.makedirs(downloadPath)
 	profile = webdriver.FirefoxProfile()
 	profile.set_preference("browser.download.folderList", 2)
 	profile.set_preference("browser.download.manager.showWhenStarting", False)
@@ -188,6 +206,8 @@ try:
 	XMLdirectory = os.path.abspath(os.path.dirname(__file__));
 	incomesConcepts = [];
 	deductionsConcepts = [];
+	listOfIncomes = [];
+	listOfDeductions = [];
 	incomesTotal = 0;
 	deductionsTotal = 0;
 	XMLFiles = [];
@@ -195,13 +215,15 @@ try:
 
 	firefox = init()
 	year = login(firefox)
-	download(firefox , year)
+	# download(firefox , year)
 
+	downloadPath = os.path.join(os.getcwd(), "2_XMLS");
 	GetXMLs(downloadPath);
 	GetIncomesConcepts();
+	GetDeductionsConcepts();
 
 	# Close browser after whole download process.
-	browser.close()
+	firefox.close()
 
 except (NoSuchElementException, ElementClickInterceptedException) as e:
 	print('Exception been raised...')
