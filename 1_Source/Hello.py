@@ -217,11 +217,19 @@ try:
 	year = login(firefox)
 	# download(firefox , year)
 
+<<<<<<< HEAD
 	downloadPath = os.path.join(os.getcwd(), "2_XMLS");
 	GetXMLs(downloadPath);
 	GetIncomesConcepts();
 	GetDeductionsConcepts();
 
+=======
+	downloadPath = os.path.join(os.getcwd(), "2_XMLS")
+	GetXMLs(downloadPath);
+	GetIncomesConcepts();
+	GetDeductionsConcepts();
+	print(str(Ingresos - Egresos))
+>>>>>>> b7f85d7818d806879920030186b2f39917b7fb02
 	# Close browser after whole download process.
 	firefox.close()
 
