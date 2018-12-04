@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.keys import Keys
@@ -6,7 +6,6 @@ from time import sleep
 import requests
 import os, sys
 from PIL import Image
-from selenium.common.exceptions import *
 import shutil
 import xml.etree.ElementTree as ET
 
@@ -20,21 +19,20 @@ def GetXMLs(path):
 # Function to get a sub-tree from a XML file
 def GetXMLTree(fileName, treeToFind):
 	tree = [];
-	with open(fileName, 'r') as xml_file:
-		for root in ET.parse(xml_file).getroot().iter(treeToFind):
-			for child in root:
-				tree.append(child);
+	for root in ET.parse(fileName).getroot().iter(treeToFind):
+		for child in root:
+			tree.append(child);
 	return tree;
 
 # Function to get an elemento from a XML file
-def GetXMLElement(fileName, nodeToFind, description, attrib):
+def GetXMLElement(fileName, nodeToFind, attrib1, description, attribValue):
 	if(nodeToFind != None):
 		namespaces = {'cfdi': 'http://www.sat.gob.mx/cfd/3'};
 		for element in ET.parse(fileName).getroot().iter():
-			ele = element.find(nodeToFind, namespaces)
+			ele = element.find(nodeToFind, namespaces);
 			if(ele != None):
-				if(ele.get("Descripcion") == description):
-					return float(ele.get(attrib));
+				if(ele.get(attrib1) == description):
+					return float(ele.get(attribValue));
 	return 0;
 
 # Function to get incomesConcepts
@@ -43,13 +41,12 @@ def GetIncomesConcepts():
 	incomesConcepts = GetXMLTree(TDFFile, 'Ingresos');
 	for file in XMLFiles:
 		for element in incomesConcepts:
-			# income = GetXMLElement(file, element.get("Node"), element.get("Descripcion"), element.get("Atributo"));
-			income = GetXMLElement(file, element.get("Node"), "Pago de nómina", element.get("Atributo"));
+			income = GetXMLElement(file, element.get("Node"), element.get("Atributo"), element.get("Descripcion"), element.get("AtributoImporte"));
 			if(income > 0):
 				incomesTotal += income;
 				myElementList = [];
+				myElementList.append(file)
 				myElementList.append(element.get("Descripcion"))
-				myElementList.append(element.get("Atributo"))
 				myElementList.append(income);
 				print(myElementList);
 	print(str(incomesTotal));
@@ -60,12 +57,12 @@ def GetDeductionsConcepts():
 	deductionsConcepts = GetXMLTree(TDFFile, 'Deducciones');
 	for file in XMLFiles:
 		for element in deductionsConcepts:
-			deduction = GetXMLElement(file, element.get("Node"), element.get("Descripcion"), element.get("Atributo"));
+			deduction = GetXMLElement(file, element.get("Node"), element.get("Atributo"), element.get("Descripcion"), element.get("AtributoImporte"));
 			if(deduction > 0):
 				deductionsTotal += deduction;
 				myElementList = [];
+				myElementList.append(file)
 				myElementList.extend(element.get("Descripcion"))
-				myElementList.extend(element.get("Atributo"))
 				myElementList.extend(deduction);
 				print(myElementList);
 	print(str(deductionsTotal));
@@ -221,12 +218,11 @@ try:
 	GetXMLs(downloadPath);
 	GetIncomesConcepts();
 	GetDeductionsConcepts();
-	print(str(Ingresos - Egresos))
-
+	
 	# Close browser after whole download process.
 	firefox.close()
 
-except (NoSuchElementException, ElementClickInterceptedException) as e:
+except Exception as e:
 	print('Exception been raised...')
 	print(e);
-	firefox.navigate().refresh();
+	# firefox.navigate().refresh();

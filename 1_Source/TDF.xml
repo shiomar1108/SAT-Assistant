@@ -4,28 +4,30 @@
 		<ns1 nombre="cfdi" URL="http://www.sat.gob.mx/cfd/3" />
 	</Namespaces>
 	<Ingresos>
-		<Nomina Node="cfdi:Concepto" Descripcion="Pago de nómina" Atributo="Importe"/>
+		<Nomina Node="cfdi:Concepto" Atributo="Descripcion" Descripcion="Pago de nómina" AtributoImporte="Importe"/>
+		<Nomina Node="cfdi:Concepto" Atributo="descripcion" Descripcion="Pago de nómina" AtributoImporte="importe"/>
 	</Ingresos>
 	<Deducciones>
-		<HonorariosMedicos Descripcion="X" Atributo="X" />
-		<HonorariosMedicosDentales Descripcion="ODONTOLOGÍA Y SUS DIVERSAS RAMAS" Atributo="Importe" />
-		<HonorariosMedicosEnfermeria Descripcion="X" Atributo="X" />
-		<AnalisisMedicos Descripcion="X" Atributo="X" />
-		<EstudiosClinicos Descripcion="X" Atributo="X" />
-		<Protesis Descripcion="X" Atributo="X" />
-		<CompraAparatosRehabilitacion Descripcion="X" Atributo="X" />
-		<RentaAparatosRehabilitacion Descripcion="X" Atributo="X" />
-		<ServiciosProfesionalesPsicologia Descripcion="X" Atributo="X" />
-		<GastosHospitalarios Descripcion="X" Atributo="X" />
-		<GastosFunerales Descripcion="X" Atributo="X" />
-		<DonativosNoOnerosos Descripcion="X" Atributo="X" Tope="7%" />
-		<DonativosNoRemunerativos Descripcion="X" Atributo="X" Tope="7%" />
-		<DonativosOtorgadoInstitucionesEnsenianza Descripcion="X" Atributo="X" Tope="7%" />
-		<InteresesRealesDeduciblesCreditosHipotecarios Descripcion="X" Atributo="X" />
-		<AportacionesComplementariasSubcuentaAportaciones Descripcion="X" Tope="10%" SalariosMinimos="5" />
-		<PrimaSeguroGastosMedicos Descripcion="X" Atributo="X" />
-		<PrimaSeguroGastosMedicosComplementarios Descripcion="X" Atributo="X" />
-		<PrimaSeguroGastosMedicosIndependientes Descripcion="X" Atributo="X" />
-		<TransportacionEscolar Descripcion="X" Atributo="X" />
+		<HonorariosMedicos Atributo="descripcion" Descripcion="X" AtributoImporte="X" />
+		<HonorariosMedicosDentales Atributo="Descripcion" Descripcion="ODONTOLOGÍA Y SUS DIVERSAS RAMAS" AtributoImporte="Importe" />
+		<HonorariosMedicosDentales Atributo="descripcion" Descripcion="ODONTOLOGÍA Y SUS DIVERSAS RAMAS" AtributoImporte="importe" />
+		<HonorariosMedicosEnfermeria Atributo="descripcion" Descripcion="X" AtributoImporte="X" />
+		<AnalisisMedicos Atributo="descripcion" Descripcion="X" AtributoImporte="X" />
+		<EstudiosClinicos Atributo="descripcion" Descripcion="X" AtributoImporte="X" />
+		<Protesis Atributo="descripcion" Descripcion="X" AtributoImporte="X" />
+		<CompraAparatosRehabilitacion Atributo="descripcion" Descripcion="X" AtributoImporte="X" />
+		<RentaAparatosRehabilitacion Atributo="descripcion" Descripcion="X" AtributoImporte="X" />
+		<ServiciosProfesionalesPsicologia Atributo="descripcion" Descripcion="X" AtributoImporte="X" />
+		<GastosHospitalarios Atributo="descripcion" Descripcion="X" AtributoImporte="X" />
+		<GastosFunerales Atributo="descripcion" Descripcion="X" AtributoImporte="X" />
+		<DonativosNoOnerosos Atributo="descripcion" Descripcion="X" AtributoImporte="X" Tope="7%" />
+		<DonativosNoRemunerativos Atributo="descripcion" Descripcion="X" AtributoImporte="X" Tope="7%" />
+		<DonativosOtorgadoInstitucionesEnsenianza Atributo="descripcion" Descripcion="X" AtributoImporte="X" Tope="7%" />
+		<InteresesRealesDeduciblesCreditosHipotecarios Atributo="descripcion" Descripcion="X" AtributoImporte="X" />
+		<AportacionesComplementariasSubcuentaAportaciones Atributo="descripcion" Descripcion="X" AtributoImporte="X" Tope="10%" SalariosMinimos="5" />
+		<PrimaSeguroGastosMedicos Atributo="descripcion" Descripcion="X" AtributoImporte="X" />
+		<PrimaSeguroGastosMedicosComplementarios Atributo="descripcion" Descripcion="X" AtributoImporte="X" />
+		<PrimaSeguroGastosMedicosIndependientes Atributo="descripcion" Descripcion="X" AtributoImporte="X" />
+		<TransportacionEscolar Atributo="descripcion" Descripcion="X" AtributoImporte="X" />
 	</Deducciones>
 </declaraSAT>
